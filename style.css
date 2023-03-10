@@ -113,6 +113,13 @@
     font-weight: 600;
     text-decoration: underline;
 }
+@media screen and (min-width: 375px) and (max-width:667px){
+    #filho{
+        margin-left: -200px;
+    }
+}
+    
+
 
 @media screen and (max-width: 667px) and (min-width:375px){
     #filho{
@@ -126,15 +133,13 @@
     }
     
     #sub-filho{
-        margin-top: 20px;
+        margin-top: 65px;
     }
 
     .container{
         padding-top: 15px;
     }
     .imagem{
-        height: 100px;
-        width: 85px;
-        display: block;
+        display: none;
     }
 }
