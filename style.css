@@ -115,7 +115,7 @@
 }
 @media screen and (min-width: 375px) and (max-width:667px){
     #filho{
-        margin-left: -200px;
+        
     }
 }
     
@@ -126,7 +126,7 @@
         width: 270px;
         text-align: center;
         top: 50.6%;
-        left: 63%;
+        left: 67%;
         margin-top: -180px;
         height: 355px;
         margin-left: -223px;
