@@ -28,7 +28,7 @@
                     <p><input type="email" name="email" id="iemail" placeholder="Digite seu melhor E-mail"></p>
                      
                     <label for="icelular">Celular</label>
-                    <p><input type="tel" name="cel" id="icelular" placeholder="(xx)xxxxx-xxxx" ></p>
+                    <p><input type="tel" name="cel" id="icelular" placeholder="Digite seu celular" (xx)xxxxx-xxxx pattern="^\(\d{2}\)\d{4,5}-\d{4}$"></p>
 
                     <label for="icpf">CPF:</label>
                     <p><input type="number" name="cpf" id="icpf" placeholder="Digite seu CPF"></p>
@@ -37,10 +37,13 @@
                     <p><input type="number" name="cep" id="icep" placeholder="Digite seu CEP" minlength="3" maxlength="10"></p>
 
                     <label for="icomp">Complemento</label>
-                    <p><input type="number" name="comp" id="icomp" min="1"></p>
+                    <p><input type="number" name="comp" id="icomp" placeholder="Condominio ou Casa"></p>
 
                     <label for="isenha">Senha:</label>
-                    <p><input type="password" name="senha" id="isenha"></p>
+                    <p><input type="password" name="senha" id="isenha" placeholder="Digite sua senha" minlength="6" maxlength="10"></p>
+
+                    <label for="iconf">Senha</label>
+                    <p><input type="password" name="senha" id="iconf" placeholder="Confirmar senha" minlength="6" maxlength="10"></p>
 
                     <!--<input type="submit" value="Salvar">-->
                 </article>

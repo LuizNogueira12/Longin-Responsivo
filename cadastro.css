@@ -6,6 +6,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 :root{
@@ -39,4 +40,25 @@
 
     margin-top: -275px;
     margin-left: -400px;
+}
+
+#register{
+    text-align: center;
+    columns: 2;
+    margin-top: 21.5%;
+}
+
+#register label{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#register input{
+    padding: 5px;
+    width: 220px;
+}
+
+#register ::placeholder{
+    text-align: center;
+    font-weight: 600;
 }
