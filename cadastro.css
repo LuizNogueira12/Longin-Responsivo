@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+   --cor-Cinza: #393e46;
+   --cor-Azul: #00adb5;
+   --cor-Verde: #aad8d3;
+
+   --fonte-1: 'Teko', sans-serif;
+   --fonte-2: 'Saira Condensed', sans-serif;
+}
+
+#container{
+    height: 100vh;
+    background-color: var(--cor-Cinza);
+    position: relative;
+   /* background-image: url('imagem/target001.png'); */
+    background-size: 100% 100%;
+}
+
+#menu{
+    position: absolute;
+    background-color: var(--cor-Verde);
+    height: 550px;
+    width: 800px;
+    background-image: url('imagem/target001.png');
+    background-size: 100% 100%;
+
+    top: 50%;
+    left: 50%;
+
+    margin-top: -275px;
+    margin-left: -400px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <article id="container">
+            <article id="menu">
+
+                <article id="register">
+
+                    <label for="inome">Nome:</label>
+                    <p><input type="text" name="nome" id="inome" placeholder="Digite seu nome" minlength="3" maxlength="20"></p>
+
+                    <label for="isobrenome">Sobrenome:</label>
+                    <p><input type="text" name="sobrenome" id="isobrenome" placeholder="Digite seu sobrenome" minlength="3" maxlength="10"></p>
+
+                    <label for="idata">Data de nascimento</label>
+                    <p><input type="date" name="data" id="idata" value="1994-01-24"></p>
+
+                    <label for="iemail">E-mail:</label>
+                    <p><input type="email" name="email" id="iemail" placeholder="Digite seu melhor E-mail"></p>
+                     
+                    <label for="icelular">Celular</label>
+                    <p><input type="tel" name="cel" id="icelular" placeholder="(xx)xxxxx-xxxx" ></p>
+
+                    <label for="icpf">CPF:</label>
+                    <p><input type="number" name="cpf" id="icpf" placeholder="Digite seu CPF"></p>
+
+                    <label for="icep">Cep:</label>
+                    <p><input type="number" name="cep" id="icep" placeholder="Digite seu CEP" minlength="3" maxlength="10"></p>
+
+                    <label for="icomp">Complemento</label>
+                    <p><input type="number" name="comp" id="icomp" min="1"></p>
+
+                    <label for="isenha">Senha:</label>
+                    <p><input type="password" name="senha" id="isenha"></p>
+
+                    <!--<input type="submit" value="Salvar">-->
+                </article>
+
+                
+            </article>
+        </article>
+    </form>
+</body>
+</html>
