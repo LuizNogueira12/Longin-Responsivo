@@ -31,8 +31,8 @@
     position: absolute;
     background-color: var(--cor-Verde);
     height: 550px;
-    width: 800px;
-    background-image: url('imagem/target001.png');
+    width: 700px;
+     background-image: url('imagem/target001.png');
     background-size: 100% 100%;
 
     top: 50%;
@@ -42,10 +42,17 @@
     margin-left: -400px;
 }
 
-#register{
+#menu h1{
     text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+}
+
+#register{
+    margin-left: 104px;
     columns: 2;
-    margin-top: 21.5%;
+    margin-top: 12%;
+    width: 500px;
 }
 
 #register label{
