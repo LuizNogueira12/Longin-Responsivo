@@ -32,7 +32,7 @@
     background-color: var(--cor-Verde);
     height: 550px;
     width: 700px;
-     background-image: url('imagem/target001.png');
+    /*background-image: url('imagem/target001.png');*/
     background-size: 100% 100%;
 
     top: 50%;
@@ -63,6 +63,8 @@
 #register input{
     padding: 5px;
     width: 220px;
+    border-radius: 5px;
+    border: none;
 }
 
 #register ::placeholder{
