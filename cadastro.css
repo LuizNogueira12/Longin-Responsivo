@@ -21,13 +21,15 @@
 
 #container{
     height: 100vh;
-    width: 100vw;
-    background-color: var(--cor-Cinza);
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container img{
+    width: 100%;
+    height: 100%;
     background-size: cover;
-    background-image: url('imagem/bolos-velas-aalaw-e-polvilha-no-canto-do-fundo-rosa.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #menu{
@@ -35,26 +37,24 @@
     background-color: var(--cor-Azul);
     height: 550px;
     width: 700px;
-
-    top: 50%;
-    left: 50%;
-    margin-top: -275px;
-    margin-left: -350px;
     border-radius: 10px;
 }
 
 #menu h1{
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 90px;
     font-size: 2rem;
 }
 
 #register{
-    margin-left: 107px;
     columns: 2;
-    margin-top: 12%;
-    width: 500px;
+    width: auto;
     position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
 }
 
 #register label{
@@ -74,10 +74,16 @@
     font-weight: 600;
 }
 
-@media screen and (max-width: 480px) {
-    #register{
-        text-align: center;
-        width: 300px;
-        columns: 1;
+@media (max-width: 375px) {
+    #container{
+        width: auto;
     }
+    #menu{
+        width: auto;
+    }
+    #register input{
+        text-align: center;
+        columns: 2;
+    }
+
 }
