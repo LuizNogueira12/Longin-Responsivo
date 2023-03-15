@@ -49,13 +49,11 @@
 }
 
 #register{
+    text-align: center;
     columns: 2;
-    width: auto;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    display: inline-block;
-}
+    width: 100%;
+    border: 1px solid red;
+}   
 
 #register label{
     font-weight: 600;
