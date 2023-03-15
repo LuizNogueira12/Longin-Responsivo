@@ -58,8 +58,10 @@
 
 fieldset{
     color: black;
-    margin: 50px;
-    padding: 20px;
+    margin-top: 120px;
+    padding: 30px;
+    font-weight: 600;
+    
 }
 
 #register label{
