@@ -48,8 +48,8 @@
     font-size: 2rem;
 }
 
-#register{
-    text-align: center;
+#register{      /*CENTRALIZANDO OS INPUTS*/
+    text-align: center;    
     columns: 2;
     width: 100%;
     border: 1px solid red;
