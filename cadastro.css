@@ -81,5 +81,10 @@
     #menu{
         width: 70%;
     }
-    
+}
+
+@media (max-width: 481px){
+    #register{
+        columns: 2;
+    }
 }
