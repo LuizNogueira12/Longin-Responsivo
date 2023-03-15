@@ -54,8 +54,13 @@
     text-align: center;    
     columns: 2;
     width: 100%;
-    
 }   
+
+fieldset{
+    color: black;
+    margin: 60px;
+    padding: 30px;
+}
 
 #register label{
     font-weight: 600;
