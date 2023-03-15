@@ -45,14 +45,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 90px;
+    margin-bottom: 50px;
     font-size: 2rem;
+
 }
 
 #register{      /*CENTRALIZANDO OS INPUTS*/
     text-align: center;    
     columns: 2;
     width: 100%;
-    border: 1px solid red;
+    
 }   
 
 #register label{
@@ -72,16 +74,18 @@
     font-weight: 600;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
     #container{
         width: auto;
     }
     #menu{
-        width: auto;
+        width: 70%;
+       
     }
+    
     #register input{
-        text-align: center;
         columns: 2;
+        
     }
 
 }
